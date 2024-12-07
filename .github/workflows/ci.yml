@@ -33,7 +33,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install \
-               mkdocs-material=="9.*" \
+               mkdocs-material=="8.*" \
                mkdocs-git-revision-date-localized-plugin \
                mkdocs-jupyter==0.24.7
       # - run: pip install .[dev]
