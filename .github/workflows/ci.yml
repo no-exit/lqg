@@ -33,6 +33,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install \
+               mkdocs=="1.5.x" \
                mkdocs-material \
                mkdocs-git-revision-date-localized-plugin \
                mkdocs-jupyter==0.25.1
