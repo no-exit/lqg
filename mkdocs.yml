@@ -75,6 +75,8 @@ plugins:
       execute: false
       # Required for Altair/Plotly to work
       include_requirejs: true
+      # https://github.com/danielfrg/mkdocs-jupyter/issues/209
+      custom_mathjax_url: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"
 
 # extra_javascript:
 #   - javascripts/mathjax.js
