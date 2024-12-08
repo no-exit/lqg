@@ -78,6 +78,6 @@ plugins:
       # https://github.com/danielfrg/mkdocs-jupyter/issues/209
       custom_mathjax_url: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"
 
-# extra_javascript:
-#   - javascripts/mathjax.js
-#   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
